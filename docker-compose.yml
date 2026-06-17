@@ -23,7 +23,7 @@ services:
     container_name: golang
     tty: true
     build:
-      context: ./Go/data
+      context: ./Go/src
       dockerfile: ../Dockerfile
       args:
         USERNAME: ${BACK_USER}
